@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #ebf1fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 100px auto;
+  background-color: #c1d5f1;
+  padding: 30px;
+  box-shadow:
+    0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border-radius: 15px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.option-btn {
+  display: block;
+  font-size: 1.2em;
+  padding: 12px;
+  margin: 8px 0;
+  width: 100%;
+  text-align: left;
+  background-color: #ebf1fa;
+  border: none;
+  border-radius: 5px;
+}
+
+.option-btn:hover {
+  background-color: #e1eaf8;
+}
+
+.answer {
+  font-size: 1.1em;
+}
+
+.correct-answer {
+  color: green;
+}
+
+.wrong-answer {
+  color: #ed3a3a;
+}
+
+.option-btn:disabled:hover {
+  background-color: #ebf1fa;
+}
+
+.option-btn.selected {
+  background-color: #e1eaf8;
+  border: 2px solid #222a49;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-btn {
+  background-color: #7ba5df;
+  border: none;
+  font-size: 1.2em;
+  width: auto;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.nav-btn:hover {
+  background-color: #5c87d5;
+}
+
+.nav-btn:disabled:hover {
+  background-color: #7ba5df;
+}
+
+.result {
+  margin: 40px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.resultButtonsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.result-button {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  background: #7ba5df;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.result-button:hover {
+  background: #5c87d5;
+}
